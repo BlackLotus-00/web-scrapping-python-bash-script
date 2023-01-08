@@ -1,0 +1,14 @@
+- XPath :
+
+    `//element[@tagName="variable"]
+
+- Instructions:
+    To extract the desired elements, use the following steps:
+       1- Delete everything in this file (Ctrl + A, then delete)
+       2- Paste your XPath strings in this file, one per line (each line represent an XPATH
+       3- Save the file and press Enter
+
+- Example of how this file should look like :
+
+//h2[@class="title card-list"]
+//p[@class="body-text"]

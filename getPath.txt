@@ -1,0 +1,2 @@
+//h5[@class="card-title card-title-md"]//a
+//div[@class="col-lg-8"]/p[2]

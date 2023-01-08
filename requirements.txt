@@ -1,0 +1,9 @@
+requests
+openpyxl
+xlsxwriter
+xlwt
+xlrd
+selenium
+pandas
+beautifulSoup4
+webdriver_manager
