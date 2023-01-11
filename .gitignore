@@ -1,0 +1,46 @@
+# Created by PyCharm
+# IntelliJ IDEA preferences
+*.iml
+.idea/
+
+# PyCharm project files
+.idea_modules/
+*.iws
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Cython debug symbols
+*.c
+*.cpp
+
+# IPython
+.ipynb_checkpoints/
+
+# PyCharm
+.Python/
+
+# PyCharm temporary files
+*.tmp
+*.log
+
+# PyCharm caches
+*.pyc
+*.pyo
+
+# Environments
+.env/
+env/
+venv/
+outputFiles/
+
+# Spyder project files
+.spyderproject
+.spyproject
+
+# PyCharm generated files
+*.egg-info/
+dist/
+build/

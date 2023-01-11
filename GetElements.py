@@ -1,5 +1,5 @@
 import pandas as pd
-
+from openpyxl.utils.exceptions import IllegalCharacterError
 
 
 def get_elements_by_xpath(xpathList: list, driver, worksheet, path_to_file = "results.xlsx"):
@@ -18,5 +18,8 @@ def get_elements_by_xpath(xpathList: list, driver, worksheet, path_to_file = "re
 
         iteration+=1
     for j in range(1,i):
-        worksheet.append(dict['companie' + str(j)])
+        try:
+            worksheet.append(dict['companie' + str(j)])
+        except IllegalCharacterError as e:
+            continue
 
